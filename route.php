@@ -7,7 +7,7 @@
  * @lastmodify       2019-06-30 
  */
  
-namespace framework\route;
+namespace yzmcms\route;
  
 class route {
 	public static $halts = false;

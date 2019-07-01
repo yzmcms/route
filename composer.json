@@ -1,0 +1,12 @@
+{
+    "name": "yzmcms/route",
+    "description": "php route",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yuanzhimeng",
+            "email": "214243830@qq.com"
+        }
+    ],
+    "require": {}
+}
