@@ -57,16 +57,6 @@ route::any('/', function() {
 route::exec();
 ```
 
-Lastly, if there is no route defined for a certain location, you can make route run a custom callback, like:
-
-```PHP
-route::error(function() {
-  echo '404 :: Not Found';
-});
-```
-
-If you don't specify an error callback, route will just echo `404`.
-
 
 ## Example passing to a controller instead of a closure
 <hr>
@@ -79,7 +69,7 @@ index.php:
 ```php
 require('vendor/autoload.php');
 
-use framework\route\route;
+use yzmcms\route\route;
 
 route::get('/', 'Controllers\demo@index');
 route::get('page', 'Controllers\demo@page');
