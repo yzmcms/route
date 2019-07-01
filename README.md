@@ -16,7 +16,7 @@ require: {
 First, `use` the route namespace:
 
 ```PHP
-use framework\route\route;
+use yzmcms\route\route;
 ```
 
 route is not an object, so you can just make direct operations to the class. Here's the Hello World:
