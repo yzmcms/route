@@ -7,7 +7,7 @@ If you have Composer, just include route as a project dependency in your `compos
 
 ```
 require: {
-    "yzmcms/route": "master"
+    "yzmcms/route": "*"
 }
 ```
 
@@ -111,7 +111,7 @@ composer.json:
 ```
 {
    "require": {
-        "yzmcms/route": "master"
+        "yzmcms/route": "*"
     },
     "autoload": {
         "psr-4": {
