@@ -1,12 +1,27 @@
 {
     "name": "yzmcms/route",
-    "description": "php route",
+    "description": "this is min php route.",
+    "keywords": [
+        "phproute",
+        "yzmphp",
+        "route"
+    ],	
     "license": "MIT",
+	"type": "project",
+    "require": {
+        "php": "^5.3.0"
+    },	
     "authors": [
         {
-            "name": "yuanzhimeng",
-            "email": "214243830@qq.com"
+            "name": "袁志蒙",
+            "email": "214243830@qq.com",
+			"homepage": "http://www.yzmcms.com"
         }
     ],
-    "require": {}
+    "require": {},
+	"autoload": {
+        "psr-4": {
+            "yzmcms\\route\\": ""
+        }
+    }
 }
